@@ -8,12 +8,12 @@
 import SwiftUI
 
 @main
-struct FawakihCompanionAppApp: App {
+struct FawakihCompanionAppMain: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FawakihDashboardView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
