@@ -15,22 +15,22 @@ struct FawakihTabView: View {
                     Label("Flashcards", systemImage: "rectangle")
                 }
 
-            ContentView()
+            FawakihDashboardView()
                 .tabItem {
                     Label("Discover", systemImage: "magnifyingglass")
                 }
             
-            ContentView()
+            FawakihDashboardView()
                 .tabItem {
                     Label("Create", systemImage: "plus.rectangle.fill")
                 }
             
-            ContentView()
+            FawakihDashboardView()
                 .tabItem {
                     Label("Services", systemImage: "cube.fill")
                 }
             
-            ContentView()
+            FawakihDashboardView()
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
